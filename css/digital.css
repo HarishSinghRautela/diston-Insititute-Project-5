@@ -1,0 +1,36 @@
+.courses{
+    display: none;
+}
+.box1 ul li:hover .courses{
+    display: block;
+    height: 370px;
+    width: 250px;
+    background-color: white;
+    border-top: 2px solid red;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 5;
+    margin-top: -3px;
+    margin-left: -40px;
+    animation: cour 0.2s forwards;
+    overflow: hidden;
+}
+@keyframes cour{
+  from{
+        transform: translate(0px , 40px);
+  }to{
+        transform: translate(0px , 10);
+  }
+}
+.courses ul{
+    display: block;
+    margin-top: 30px;
+}
+.courses ul li{
+    display: block;
+    font-size: 18px;
+    font-family: Arial;
+    color: rgb(83, 83, 83);
+    margin-left: -400px;
+    margin-top: 20px;
+}

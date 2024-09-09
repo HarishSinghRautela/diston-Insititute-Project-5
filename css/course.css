@@ -1,0 +1,824 @@
+.box1{
+    height: 160px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+ }
+ .dis{
+     height: 110px;
+     width: 120px;
+     margin-top: 20px;
+     margin-left: 150px;
+ }
+ .box1 ul{
+     display: flex;
+     list-style: none;
+     margin-top: -65px;
+     margin-left: 330px;
+ }
+ .box1 ul li{
+     font-size: 15px;
+     font-family: Arial;
+     font-weight: bold;
+     color: black;
+     padding-left: 50px;
+ }
+ .box1 ul li a{
+   color: black;
+   text-decoration: none;
+}
+.box1 ul li a:hover{
+   color: rgb(255, 0, 0);
+}
+
+.box1 ul li:hover{
+   color: rgb(208, 67, 67);
+}
+
+ .box1 ul li:hover{
+     color: rgb(208, 67, 67);
+ }
+ 
+ .courses{
+     display: none;
+ }
+ .box1 ul li:hover .courses{
+     display: block;
+     height: 370px;
+     width: 250px;
+     background-color: white;
+     border-top: 2px solid red;
+     border-radius: 10px;
+     position: absolute;
+     z-index: 5;
+     margin-top: -3px;
+     margin-left: -40px;
+     animation: cour 0.2s forwards;
+     overflow: hidden;
+ }
+ @keyframes cour{
+   from{
+         transform: translate(0px , 40px);
+   }to{
+         transform: translate(0px , 10);
+   }
+ }
+ .courses ul{
+     display: block;
+     margin-top: 30px;
+ }
+ .courses ul li{
+     display: block;
+     font-size: 18px;
+     font-family: Arial;
+     color: rgb(83, 83, 83);
+     margin-left: -400px;
+     margin-top: 20px;
+ }
+ 
+ .demo{
+     height: 50px;
+     width: 150px;
+     position: absolute;
+     background-color: rgb(230, 44, 44);
+     border-radius: 20px;
+     margin-left: 1290px;
+     margin-top: -50px;
+ }
+ .demo .de{
+     font-size: 14px;
+     color: white;
+     position: absolute;
+     margin-top: 15px;
+     margin-left: 20px;
+ }
+ 
+ .search{
+     height: 25px;
+     width: 25px;
+     position: absolute;
+     margin-left: 1230px;
+     margin-top: -40px;
+     
+ }
+ 
+ 
+
+
+
+
+ .box2{
+    height: 300px;
+    width: 100%;
+  
+    margin-top: 60px;
+    overflow: hidden;
+ }
+ .img1{
+    height: 800px;
+    width: 100%;
+    margin-top: -90px;
+ }
+
+ .a1{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    opacity: 0.6;
+    margin-top: -715px;
+ }
+
+ .about{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    margin-left: 570px;
+    margin-top: -600px;
+ }
+
+ .home{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(58, 56, 56);
+    font-weight: bold;
+    position: absolute;
+    margin-left: 630px;
+    margin-top: -530px;
+ }
+ .home:hover{
+    color: rgb(195, 24, 24);
+ }
+ 
+ .i1{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(51, 49, 49);
+    font-weight: bold;
+    position: absolute;
+    margin-left: 680px;
+    margin-top: -530px;
+ }
+
+ .about2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(51, 49, 49);
+    font-weight: bold;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: -530px;
+ }
+ .about2:hover{
+   color: rgb(159, 31, 31);
+ }
+
+   
+ .img2{
+    height: 190px;
+    width: 190px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 70px;
+ }
+
+
+ .img3{
+    height: 190px;
+    width: 190px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 1230px;
+ }
+
+
+
+
+
+
+ .box3{
+    height: 360px;
+    width: 100%;
+    background-color: rgba(49, 76, 128, 0.925);
+    margin-top: 50px;
+ }
+
+ .img4{
+    height: 300px;
+    width: 300px;
+    margin-left: 250px;
+    margin-top: 30px;
+ }
+
+.check{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-top: -190px;
+    margin-left: 800px;
+}
+
+
+
+
+
+
+
+.box4{
+    display: flex;
+    height: 737px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.sub1{
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 140px;
+    box-shadow: 10px 0px 5px rgb(147, 149, 150);
+}
+.img5{
+    height: 350px;
+    width: 100%;
+}
+.sub11{
+    height: 50px;
+    width: 100%;
+    background-color: gray;
+    position: absolute;
+    border-radius: 10px;
+    margin-top: -40px;
+}
+
+.one{
+   font-size: 18px;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-left: 80px;
+   margin-top: 15px;
+}
+
+
+.sub2{
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 450px;
+    box-shadow: 10px 0px 5px rgb(147, 149, 150);
+}
+.sub22{
+    height: 50px;
+    width: 100%;
+    background-color: gray;
+    position: absolute;
+    border-radius: 10px;
+    margin-top: -40px;
+}
+.img6{
+    height: 350px;
+    width: 100%;
+}
+
+.two{
+   font-size: 18px;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-left: 80px;
+   margin-top: 15px;
+}
+
+
+
+
+.sub3{
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 760px;
+    box-shadow: 10px 0px 5px rgb(147, 149, 150);
+}
+.sub33{
+    height: 50px;
+    width: 100%;
+    background-color: gray;
+    position: absolute;
+    border-radius: 10px;
+    margin-top: -40px;
+}
+.img7{
+    height: 350px;
+    width: 100%;
+}
+
+.three{
+   font-size: 18px;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-left: 80px;
+   margin-top: 15px;
+}
+
+
+
+
+.sub4{
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 1070px;
+    box-shadow: 10px 0px 5px rgb(147, 149, 150);
+}
+.sub44{
+    height: 50px;
+    width: 100%;
+    background-color: gray;
+    position: absolute;
+    border-radius: 10px;
+    margin-top: -40px;
+}
+.img8{
+    height: 350px;
+    width: 100%;
+}
+
+.four{
+   font-size: 18px;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-left: 80px;
+   margin-top: 15px;
+}
+
+
+
+
+
+.sub5{
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 140px;
+    box-shadow: -10px -5px 5px rgb(147, 149, 150);
+}
+.img9{
+    height: 350px;
+    width: 100%;
+}
+.sub55{
+    height: 50px;
+    width: 100%;
+    background-color: gray;
+    position: absolute;
+    border-radius: 10px;
+    margin-top: -40px;
+}
+.five{
+   font-size: 18px;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-left: 80px;
+   margin-top: 15px;
+}
+
+
+
+
+.sub6{
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 450px;
+    box-shadow: -10px -5px 5px rgb(147, 149, 150);
+}
+.sub66{
+    height: 50px;
+    width: 100%;
+    background-color: gray;
+    position: absolute;
+    border-radius: 10px;
+    margin-top: -40px;
+}
+.img10{
+    height: 350px;
+    width: 100%;
+}
+.six{
+   font-size: 18px;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-left: 80px;
+   margin-top: 15px;
+}
+
+
+
+.sub7{
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 760px;
+    box-shadow: -10px -5px 5px rgb(147, 149, 150);
+}
+.sub77{
+    height: 50px;
+    width: 100%;
+    background-color: gray;
+    position: absolute;
+    border-radius: 10px;
+    margin-top: -40px;
+}
+.img11{
+    height: 350px;
+    width: 100%;
+}
+.seven{
+   font-size: 18px;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-left: 80px;
+   margin-top: 15px;
+}
+
+
+
+
+.sub8{
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 1070px;
+    box-shadow: -10px -5px 5px rgb(147, 149, 150);
+}
+.sub88{
+    height: 50px;
+    width: 100%;
+    background-color: gray;
+    position: absolute;
+    border-radius: 10px;
+    margin-top: -40px;
+}
+.img12{
+    height: 350px;
+    width: 100%;
+}
+
+.eight{
+   font-size: 18px;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-left: 80px;
+   margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+.box10{
+    height: 680px;
+    width: 100%;
+    background-color: rgb(10, 15, 44);
+    border: 2px solid black;
+ }
+ 
+ .img17{
+    height: 70px;
+    width: 80px;
+    margin-top: 100px;
+    margin-left: 160px;
+ 
+ }
+ 
+ .pvt{
+    font-size: 18px;
+    color: rgb(150, 150, 150);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 160px;
+    margin-top: 30px;
+    line-height: 30px;
+ }
+ 
+ .mo1{
+    font-size: 20px;
+    color: rgb(255, 74, 64);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 160px;
+ }
+ 
+ 
+ .use{
+    height: 360px;
+    width: 270px;
+    background-color: rgb(10, 15, 44);
+    position: absolute;
+    margin-left: 460px;
+    margin-top: -310px;
+ }
+ 
+ .link2{
+    font-size: 25px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+ }
+ 
+ .aa1{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top: 40px;
+    margin-left: 60px;
+ }
+ .aa1:hover{
+    color: white;
+    text-decoration: underline;
+    
+ }
+ 
+ .pp1{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top: 20px;
+    margin-left: 60px;
+ }
+ .pp1.pp1:hover{
+    color: white;
+    text-decoration: underline;
+ }
+ 
+ .tt1{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top: 20px;
+    margin-left: 60px;
+ }
+ .tt1.tt1:hover{
+    color: white;
+    text-decoration: underline;
+ }
+ 
+ 
+ .logi11{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top: 20px;
+    margin-left: 60px;
+ }
+ .logi11.logi11:hover{
+    color: white;
+    text-decoration: underline;
+ }
+ 
+ 
+ .High{
+    height: 360px;
+    width: 390px;
+    background-color: rgb(10, 15, 44);
+    position: absolute;
+    margin-left: 730px;
+    margin-top: -310px;
+ }
+ 
+ .link3{
+    font-size: 25px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+ }
+ 
+ .ddd1{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top: 40px;
+    margin-left: 60px;
+ }
+ .ddd1.ddd1:hover{
+    color: white;
+    text-decoration: underline;
+ }
+ 
+ .ggg1{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top: 20px;
+    margin-left: 60px;
+ }
+ .ggg1.ggg1:hover{
+    color: white;
+    text-decoration: underline;
+ }
+ 
+ 
+ .iii1{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top: 20px;
+    margin-left: 60px;
+ }
+ .iii1.iii1:hover{
+    color: white;
+    text-decoration: underline;
+ }
+ 
+ .neet11{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+    color: gray;
+    margin-top: 20px;
+    margin-left: 60px;
+ }
+ .neet11.neet11:hover{
+    color: white;
+    text-decoration: underline;
+ }
+ 
+ 
+ 
+ .dda1{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+    color: gray;
+    margin-top: 20px;
+    margin-left: 60px;
+ }
+ .dda1.dda1:hover{
+    color: white;
+    text-decoration: underline;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .contact1{
+    height: 360px;
+    width: 390px;
+    background-color: rgb(10, 15, 44);
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: -310px;
+ }
+ 
+ .link4{
+    font-size: 25px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+ }
+ 
+ .khurana{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top: 40px;
+    margin-left: 60px;
+ }
+ 
+ .num1{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top: 40px;
+    margin-left: 60px;
+ }
+ 
+ .email{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top: 40px;
+    margin-left: 60px;
+ }
+ 
+ 
+ .img18{
+    height: 30px;
+    width: 25px;
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 20px;
+ }
+ .img18:hover{
+   color: rgb(212, 65, 114);
+ }
+ 
+ 
+ 
+ .img19{
+    height: 30px;
+    width: 25px;
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 20px;
+ 
+ }
+ 
+ .img20{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 20px;
+ 
+ }
+ 
+ 
+ 
+ 
+ .img21{
+    height: 20px;
+    width: 20px;
+    margin-left: 160px;
+    margin-top: 110px;
+ }
+ 
+ .img22{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    margin-left: -5px;
+    margin-top: 106px;
+ }
+ 
+ .img23{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 111px;
+ }
+ 
+ .img24{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 110px;
+ }
+ 
+ .img25{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 109px;
+ }
+ 
+ .lineb{
+    height: 1px;
+    width: 1170px;
+    background-color: gray;
+    margin-top: 50px;
+    margin-left: 170px;
+ }
+ 
+ 
+ .ltd{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-left: 170px;
+    margin-top: 40px;
+ }
+ 
+ 
+ .all{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-left: 935px;
+    margin-top: -40px;
+ }

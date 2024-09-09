@@ -1,0 +1,1886 @@
+.box1{
+    height: 160px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+ }
+ .dis{
+     height: 110px;
+     width: 120px;
+     margin-top: 20px;
+     margin-left: 150px;
+ }
+ .box1 ul{
+     display: flex;
+     list-style: none;
+     margin-top: -65px;
+     margin-left: 330px;
+ }
+ .box1 ul li{
+     font-size: 15px;
+     font-family: Arial;
+     font-weight: bold;
+     color: black;
+     padding-left: 50px;
+ }
+ .box1 ul li a{
+    color: black;
+    text-decoration: none;
+}   
+.box1 ul li a:hover{
+    color: rgb(255, 0, 0);
+ }
+.box1 ul li:hover{
+    color: rgb(208, 67, 67);
+}
+
+ .box1 ul li:hover{
+     color: rgb(208, 67, 67);
+ }
+ 
+ .courses{
+     display: none;
+ }
+ .box1 ul li:hover .courses{
+     display: block;
+     height: 370px;
+     width: 250px;
+     background-color: white;
+     border-top: 2px solid red;
+     border-radius: 10px;
+     position: absolute;
+     z-index: 5;
+     margin-top: -3px;
+     margin-left: -40px;
+     animation: cour 0.2s forwards;
+     overflow: hidden;
+ }
+ @keyframes cour{
+    from{
+          transform: translate(0px , 40px);
+    }to{
+          transform: translate(0px , 10);
+    }
+  }
+ .courses ul{
+     display: block;
+     margin-top: 30px;
+ }
+ .courses ul li{
+     display: block;
+     font-size: 18px;
+     font-family: Arial;
+     color: rgb(83, 83, 83);
+     margin-left: -400px;
+     margin-top: 20px;
+     
+ }
+ 
+ .demo{
+     height: 50px;
+     width: 150px;
+     position: absolute;
+     background-color: rgb(230, 44, 44);
+     border-radius: 20px;
+     margin-left: 1290px;
+     margin-top: -50px;
+ }
+ .demo .de{
+     font-size: 14px;
+     color: white;
+     position: absolute;
+     margin-top: 15px;
+     margin-left: 20px;
+ }
+ 
+ .search{
+     height: 25px;
+     width: 25px;
+     position: absolute;
+     margin-left: 1230px;
+     margin-top: -40px;
+     
+ }
+ 
+ 
+
+
+ .box2{
+    height: 300px;
+    width: 100%;
+  
+    margin-top: 60px;
+    overflow: hidden;
+ }
+ .img1{
+    height: 800px;
+    width: 100%;
+    margin-top: -90px;
+ }
+
+ .a1{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    opacity: 0.6;
+    margin-top: -715px;
+ }
+
+ .about{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    margin-left: 720px;
+    margin-top: -600px;
+ }
+
+ .home{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(58, 56, 56);
+    font-weight: bold;
+    position: absolute;
+    margin-left: 650px;
+    margin-top: -530px;
+ }
+ .home:hover{
+    color: rgb(195, 24, 24);
+ }
+ 
+ .i1{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(51, 49, 49);
+    font-weight: bold;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: -530px;
+ }
+
+ .about2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(51, 49, 49);
+    font-weight: bold;
+    position: absolute;
+    margin-left: 720px;
+    margin-top: -530px;
+ }
+ .about2:hover{
+    color: rgb(199, 24, 24);
+ }
+
+ .img2{
+    height: 190px;
+    width: 190px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 70px;
+ }
+
+
+ .img3{
+    height: 190px;
+    width: 190px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 1230px;
+ }
+ 
+
+
+
+ .box3{
+    height: 2100px;
+    width: 100%;
+ }
+
+ .category{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    margin-left: 630px;
+    margin-top: 90px;
+ }
+
+ .category2{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 0, 119);
+    margin-left: 800px;
+    margin-top: -75px;
+ }
+
+
+ .sub1{
+    height: 360px;
+    width: 350px;
+    background-color: white;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 140px;
+    box-shadow: 10px 0px 5px rgb(147, 149, 150);
+    border: 1px solid black;
+    border-radius: 10px
+}
+.img4{
+    height: 190px;
+    width: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.subb1{
+    height: 35px;
+    width: 70px;
+    border-radius: 30px;
+    background-color: rgb(105, 207, 105);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.blog2{
+    font-size: 19px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 15px;
+    
+}
+.date{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: -25px;
+}
+
+.share1{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -30px;
+}
+
+.eye1{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin-left: 234px;
+    margin-top: -30px;
+}
+
+.chawbees1{
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 257px;
+    margin-top: -29px;
+}
+
+.dil{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 294px;
+}
+
+.seven{
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 320px;
+    margin-top: -29px;
+}
+
+
+
+.best{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.best:hover{
+    color: red;
+}
+
+.read1{
+    font-size: 15px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.read1:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+.sub2{
+    height: 360px;
+    width: 350px;
+    background-color: white;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 570px;
+    box-shadow: 10px 0px 5px rgb(147, 149, 150);
+    border: 1px solid black;
+    border-radius: 10px
+}
+.img5{
+    height: 190px;
+    width: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.subb2{
+    height: 35px;
+    width: 70px;
+    border-radius: 30px;
+    background-color: rgb(105, 207, 105);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.blog3{
+    font-size: 19px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 15px;
+    
+}
+.date1{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: -25px;
+}
+
+.share2{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -30px;
+}
+
+.eye2{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin-left: 234px;
+    margin-top: -30px;
+}
+
+.fourteen{
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 257px;
+    margin-top: -29px;
+}
+
+.dil2{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 294px;
+}
+
+.eight{
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 320px;
+    margin-top: -29px;
+}
+
+
+
+.chat{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.chat:hover{
+    color: red;
+}
+
+.read2{
+    font-size: 15px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.read2:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+.sub3{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 990px;
+    box-shadow: 10px 0px 5px rgb(147, 149, 150);
+    border: 1px solid black;
+    border-radius: 10px
+}
+.img6{
+    height: 190px;
+    width: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.subb3{
+    height: 35px;
+    width: 70px;
+    border-radius: 30px;
+    background-color: rgb(105, 207, 105);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.blog4{
+    font-size: 19px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 15px;
+    
+}
+.date2{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: -25px;
+}
+
+.share3{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -30px;
+}
+
+.eye3{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin-left: 234px;
+    margin-top: -30px;
+}
+
+.eighteen{
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 257px;
+    margin-top: -29px;
+}
+
+.dil3{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 294px;
+}
+
+.seven2{
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 320px;
+    margin-top: -29px;
+}
+
+
+
+.ab{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.ab:hover{
+    color: red;
+}
+
+.read3{
+    font-size: 15px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 120px;
+    margin-left: 30px;
+}
+.read3:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+.sub4{
+    height: 360px;
+    width: 350px;
+    background-color: white;
+    position: absolute;
+    margin-top: 490px;
+    margin-left: 140px;
+    box-shadow: 10px 0px 5px rgb(147, 149, 150);
+    border: 1px solid black;
+    border-radius: 10px
+}
+.img7{
+    height: 190px;
+    width: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+
+.subb4{
+    height: 35px;
+    width: 70px;
+    border-radius: 30px;
+    background-color: rgb(105, 207, 105);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.blog5{
+    font-size: 19px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 15px;
+    
+}
+.date3{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: -25px;
+}
+
+.share4{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -30px;
+}
+
+.eye4{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin-left: 234px;
+    margin-top: -30px;
+}
+
+.twenty{
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 257px;
+    margin-top: -29px;
+}
+
+.dil4{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 294px;
+}
+
+.five{
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 320px;
+    margin-top: -29px;
+}
+
+
+.youtube{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.youtube:hover{
+    color: red;
+}
+
+.read4{
+    font-size: 15px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.read4:hover{
+    text-decoration: underline;
+
+}
+
+
+
+
+
+
+.sub5{
+    height: 410px;
+    width: 350px;
+    background-color: white;
+    position: absolute;
+    margin-top: 490px;
+    margin-left: 570px;
+    box-shadow: 10px 0px 5px rgb(147, 149, 150);
+    border: 1px solid black;
+    border-radius: 10px
+}
+.img8{
+    height: 190px;
+    width: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.subb5{
+    height: 35px;
+    width: 70px;
+    border-radius: 30px;
+    background-color: rgb(105, 207, 105);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.blog5{
+    font-size: 19px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 15px;
+    
+}
+.date4{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: -25px;
+}
+
+.share5{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -30px;
+}
+
+.eye5{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin-left: 234px;
+    margin-top: -30px;
+}
+
+.twenty2{
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 257px;
+    margin-top: -29px;
+}
+
+.dil5{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 294px;
+}
+
+.six{
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 320px;
+    margin-top: -29px;
+}
+
+
+
+.edit{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.edit:hover{
+    color: red;
+}
+
+.read5{
+    font-size: 15px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 120px;
+    margin-left: 30px;
+}
+.read5:hover{
+    text-decoration: underline;
+ 
+}
+
+
+
+.sub6{
+    height: 360px;
+    width: 350px;
+    background-color: white;
+    position: absolute;
+    margin-top: 490px;
+    margin-left: 990px;
+    box-shadow: 10px 0px 5px rgb(147, 149, 150);
+    border: 1px solid black;
+    border-radius: 10px
+}
+.img9{
+    height: 190px;
+    width: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.subb6{
+    height: 35px;
+    width: 70px;
+    border-radius: 30px;
+    background-color: rgb(105, 207, 105);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.blog6{
+    font-size: 19px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 15px;
+    
+}
+.date5{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: -25px;
+}
+
+.share6{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -30px;
+}
+
+.eye6{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin-left: 234px;
+    margin-top: -30px;
+}
+
+.sixteen{
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 257px;
+    margin-top: -29px;
+}
+
+.dil6{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 294px;
+}
+
+.seven3{
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 320px;
+    margin-top: -29px;
+}
+
+
+.future{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.future:hover{
+    color: red;
+}
+
+.read6{
+    font-size: 15px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.read4:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+.sub7{
+    height: 410px;
+    width: 350px;
+    background-color: white;
+    position: absolute;
+    margin-top: 940px;
+    margin-left: 140px;
+    box-shadow: 10px 0px 5px rgb(147, 149, 150);
+    border: 1px solid black;
+    border-radius: 10px
+}
+.img10{
+    height: 190px;
+    width: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.subb7{
+    height: 35px;
+    width: 70px;
+    border-radius: 30px;
+    background-color: rgb(105, 207, 105);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.blog7{
+    font-size: 19px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 15px;
+    
+}
+.date6{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: -25px;
+}
+
+.share7{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -30px;
+}
+
+.eye7{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin-left: 234px;
+    margin-top: -30px;
+}
+
+.sixteen2{
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 257px;
+    margin-top: -29px;
+}
+
+.dil7{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 294px;
+}
+
+.seven4{
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 320px;
+    margin-top: -29px;
+}
+
+
+
+.types{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.types:hover{
+    color: red;
+}
+
+.read7{
+    font-size: 15px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 120px;
+    margin-left: 30px;
+}
+.read7:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+.sub8{
+    height: 360px;
+    width: 350px;
+    background-color: white;
+    position: absolute;
+    margin-top: 940px;
+    margin-left: 570px;
+    box-shadow: 10px 0px 5px rgb(147, 149, 150);
+    border: 1px solid black;
+    border-radius: 10px
+}
+.img11{
+    height: 190px;
+    width: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.subb8{
+    height: 35px;
+    width: 70px;
+    border-radius: 30px;
+    background-color: rgb(105, 207, 105);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.blog8{
+    font-size: 19px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 15px;
+    
+}
+.date7{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: -25px;
+}
+
+.share8{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -30px;
+}
+
+.eye8{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin-left: 234px;
+    margin-top: -30px;
+}
+
+.twentyone{
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 257px;
+    margin-top: -29px;
+}
+
+.dil8{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 294px;
+}
+
+.six2{
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 320px;
+    margin-top: -29px;
+}
+
+
+.online{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.online:hover{
+    color: red;
+}
+
+.read8{
+    font-size: 15px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.read8:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+.sub9{
+    height: 360px;
+    width: 350px;
+    background-color: white;
+    position: absolute;
+    margin-top: 940px;
+    margin-left: 990px;
+    box-shadow: 10px 0px 5px rgb(147, 149, 150);
+    border: 1px solid black;
+    border-radius: 10px
+}
+.img12{
+    height: 190px;
+    width: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.subb9{
+    height: 35px;
+    width: 70px;
+    border-radius: 30px;
+    background-color: rgb(105, 207, 105);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.blog9{
+    font-size: 19px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 15px;
+    
+}
+.date8{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: -25px;
+}
+
+.share9{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -30px;
+}
+
+.eye9{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin-left: 234px;
+    margin-top: -30px;
+}
+
+.seventeen{
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 257px;
+    margin-top: -29px;
+}
+
+.dil9{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 294px;
+}
+
+.six3{
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 320px;
+    margin-top: -29px;
+}
+
+
+.media{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.media:hover{
+    color: red;
+}
+
+.read9{
+    font-size: 15px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.read9:hover{
+    text-decoration: underline;
+}
+
+
+
+.sub10{
+    height: 360px;
+    width: 350px;
+    background-color: white;
+    position: absolute;
+    margin-top: 1390px;
+    margin-left: 140px;
+    box-shadow: 10px 0px 5px rgb(147, 149, 150);
+    border: 1px solid black;
+    border-radius: 10px
+}
+.img13{
+    height: 190px;
+    width: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.subb10{
+    height: 35px;
+    width: 70px;
+    border-radius: 30px;
+    background-color: rgb(105, 207, 105);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.blog10{
+    font-size: 19px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 15px;
+    
+}
+.date9{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: -25px;
+}
+
+.share10{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -30px;
+}
+
+.eye10{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin-left: 234px;
+    margin-top: -30px;
+}
+
+.fiftyeen{
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 257px;
+    margin-top: -29px;
+}
+
+.dil10{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 294px;
+}
+
+.seven5{
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 320px;
+    margin-top: -29px;
+}
+
+
+.freelan{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.freelan:hover{
+    color: red;
+}
+
+.read10{
+    font-size: 15px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.read10:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+.circle1{
+    height: 40px;
+    width: 40px;
+    border-radius: 300px;
+    border: 2px solid rgb(194, 194, 194);
+    margin-top: 1870px;
+    margin-left: 140px;
+}
+.circle1:hover{
+    background-color: rgb(220, 28, 102);
+}
+
+.cir1{
+    font-size: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-left: 13px;
+}
+.cir1:hover{
+    color: white;
+}
+
+
+
+.circle2{
+    height: 40px;
+    width: 40px;
+    border-radius: 300px;
+    border: 2px solid rgb(194, 194, 194);
+    margin-top: -43px;
+    margin-left: 190px;
+}
+.circle2:hover{
+    background-color: rgb(220, 28, 102);
+}
+
+.cir2{
+    font-size: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-left: 13px;
+}
+.cir2:hover{
+    color: white;
+}
+
+
+.circle3{
+    height: 40px;
+    width: 40px;
+    border-radius: 300px;
+    border: 2px solid rgb(194, 194, 194);
+    margin-top: -43px;
+    margin-left: 240px;
+}
+.circle3:hover{
+    background-color: rgb(220, 28, 102);
+}
+
+.cir3{
+    font-size: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-left: 13px;
+}
+.cir3:hover{
+    color: white;
+}
+
+
+
+
+.circle4{
+    height: 40px;
+    width: 40px;
+    border-radius: 300px;
+    border: 2px solid rgb(194, 194, 194);
+    margin-top: -43px;
+    margin-left: 290px;
+}
+.circle4:hover{
+    background-color: rgb(220, 28, 102);
+}
+.cir4{
+    font-size: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-left: 13px;
+}
+.cir4:hover{
+    color: white;
+}
+
+
+
+
+.circle5{
+    height: 40px;
+    width: 40px;
+    border-radius: 300px;
+    border: 2px solid rgb(194, 194, 194);
+    margin-top: -43px;
+    margin-left:340px;
+}
+.circle5:hover{
+    background-color: rgb(220, 28, 102);
+}
+.cir5{
+    font-size: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-left: 13px;
+}
+.cir5:hover{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+.box10{
+    height: 680px;
+    width: 100%;
+    background-color: rgb(10, 15, 44);
+    border: 2px solid black;
+ }
+ 
+ .img17{
+    height: 70px;
+    width: 80px;
+    margin-top: 100px;
+    margin-left: 160px;
+ 
+ }
+ 
+ .pvt{
+    font-size: 18px;
+    color: rgb(150, 150, 150);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 160px;
+    margin-top: 30px;
+    line-height: 30px;
+ }
+ 
+ .mo1{
+    font-size: 20px;
+    color: rgb(255, 74, 64);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 160px;
+ }
+ 
+ 
+ .use{
+    height: 360px;
+    width: 270px;
+    background-color: rgb(10, 15, 44);
+    position: absolute;
+    margin-left: 460px;
+    margin-top: -310px;
+ }
+ 
+ .link2{
+    font-size: 25px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+ }
+ 
+ .aa1{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top: 40px;
+    margin-left: 60px;
+ }
+ .aa1:hover{
+    color: white;
+    text-decoration: underline;
+    
+ }
+ 
+ .pp1{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top: 20px;
+    margin-left: 60px;
+ }
+ .pp1.pp1:hover{
+    color: white;
+    text-decoration: underline;
+ }
+ 
+ .tt1{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top: 20px;
+    margin-left: 60px;
+ }
+ .tt1.tt1:hover{
+    color: white;
+    text-decoration: underline;
+ }
+ 
+ 
+ .logi11{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top: 20px;
+    margin-left: 60px;
+ }
+ .logi11.logi11:hover{
+    color: white;
+    text-decoration: underline;
+ }
+ 
+ 
+ .High{
+    height: 360px;
+    width: 390px;
+    background-color: rgb(10, 15, 44);
+    position: absolute;
+    margin-left: 730px;
+    margin-top: -310px;
+ }
+ 
+ .link3{
+    font-size: 25px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+ }
+ 
+ .ddd1{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top: 40px;
+    margin-left: 60px;
+ }
+ .ddd1.ddd1:hover{
+    color: white;
+    text-decoration: underline;
+ }
+ 
+ .ggg1{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top: 20px;
+    margin-left: 60px;
+ }
+ .ggg1.ggg1:hover{
+    color: white;
+    text-decoration: underline;
+ }
+ 
+ 
+ .iii1{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top: 20px;
+    margin-left: 60px;
+ }
+ .iii1.iii1:hover{
+    color: white;
+    text-decoration: underline;
+ }
+ 
+ .neet11{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+    color: gray;
+    margin-top: 20px;
+    margin-left: 60px;
+ }
+ .neet11.neet11:hover{
+    color: white;
+    text-decoration: underline;
+ }
+ 
+ 
+ 
+ .dda1{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+    color: gray;
+    margin-top: 20px;
+    margin-left: 60px;
+ }
+ .dda1.dda1:hover{
+    color: white;
+    text-decoration: underline;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .contact1{
+    height: 360px;
+    width: 390px;
+    background-color: rgb(10, 15, 44);
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: -310px;
+ }
+ 
+ .link4{
+    font-size: 25px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+ }
+ 
+ .khurana{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top: 40px;
+    margin-left: 60px;
+ }
+ 
+ .num1{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top: 40px;
+    margin-left: 60px;
+ }
+ 
+ .email{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top: 40px;
+    margin-left: 60px;
+ }
+ 
+ 
+ .img18{
+    height: 30px;
+    width: 25px;
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 20px;
+ }
+ .img18:hover{
+   color: rgb(212, 65, 114);
+ }
+ 
+ 
+ 
+ .img19{
+    height: 30px;
+    width: 25px;
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 20px;
+ 
+ }
+ 
+ .img20{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 20px;
+ 
+ }
+ 
+ 
+ 
+ 
+ .img21{
+    height: 20px;
+    width: 20px;
+    margin-left: 160px;
+    margin-top: 110px;
+ }
+ 
+ .img22{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    margin-left: -5px;
+    margin-top: 106px;
+ }
+ 
+ .img23{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 111px;
+ }
+ 
+ .img24{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 110px;
+ }
+ 
+ .img25{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 109px;
+ }
+ 
+ .lineb{
+    height: 1px;
+    width: 1170px;
+    background-color: gray;
+    margin-top: 50px;
+    margin-left: 170px;
+ }
+ 
+ 
+ .ltd{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-left: 170px;
+    margin-top: 40px;
+ }
+ 
+ 
+ .all{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-left: 935px;
+    margin-top: -40px;
+ }
